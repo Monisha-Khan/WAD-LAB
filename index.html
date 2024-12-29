@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---css part-->
+    <style>
+        body{
+            background-color: rgb(231, 228, 225);
+        }
+        h1 {
+            text-align: center;
+            color: rgb(85, 53, 53);
+        }
+        p {
+        
+            padding: 12px 12px;
+            margin: 2px 2px ;
+            font-size: larger;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+        }
+      button {
+        font-style: italic;
+        color: black;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        background-color: rgb(193, 150, 150);
+      }
+    </style>
+</head>
+<body>
+    <!--html header/paragraph section-->
+    
+        <h1> WAD lab final code</h1>
+   <p id="demo"> click the button and change the text </p>
+
+   <button onclick="myfunction()">click here!</button>
+   
+   <!--js part-->
+   <script>
+    function myfunction(){
+
+     document.getElementById("demo").innerHTML=" DOM manupulation in action "
+
+    }
+   </script>
+</body>
+</html>
